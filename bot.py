@@ -39,8 +39,7 @@ from typing import Optional
 
 from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ChatMember, Message, BotCommand, BotCommandScopeChatAdmins, BotCommandScopeDefault
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
-from telegram.constants import ParseMode, ChatType
-from telegram import BotCommandScopeChatAdmins, BotCommandScopeDefault
+from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ChatMember, Message, BotCommand, BotCommandScopeAllChatAdministrators, BotCommandScopeDefault
 from telegram.error import TelegramError
 
 # ══════════════════════════════════════════════
