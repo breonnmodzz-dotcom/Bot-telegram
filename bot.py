@@ -40,7 +40,6 @@ from typing import Optional
 from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ChatMember, Message, BotCommand
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 from telegram.constants import ParseMode, ChatType
-from telegram.constants import ParseMode, ChatType
 from telegram import BotCommandScopeChatAdmins, BotCommandScopeDefault
 from telegram.error import TelegramError
 
