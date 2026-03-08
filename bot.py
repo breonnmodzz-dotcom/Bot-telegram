@@ -32,15 +32,7 @@ Novidades v3:
   - Banlist global no painel do dono
 """
 
-import logging, asyncio, re, json, os
-from datetime import datetime, timedelta
-from collections import defaultdict
-from typing import Optional
 
-from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ChatMember, Message, BotCommand, BotCommandScopeChatAdmins, BotCommandScopeDefault
-from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
-from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ChatMember, Message, BotCommand, BotCommandScopeAllChatAdministrators, BotCommandScopeDefault
-from telegram.error import TelegramError
 
 # ══════════════════════════════════════════════
 #  ⚙️  CONFIGURAÇÕES — EDITE AQUI
@@ -49,7 +41,26 @@ TOKEN = "8779375731:AAHfTKVgWgS8zaUH18Vj4vJ0DdXDKvRh7U4"
 OWNER_IDS: list[int] = [7981212751, 8023120895]  # ← seus 2 IDs aqui
 
 MAX_MESSAGES  = 7
-SPAM_WINDOW   = 10
+SPAM_import logging, asyncio, re, json, os
+from datetime import datetime, timedelta
+from collections import defaultdict
+from typing import Optional
+
+from telegram import Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ChatMember, Message, BotCommand
+from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
+from telegram import (
+    Update,
+    ChatPermissions,
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    ChatMember,
+    Message,
+    BotCommand,
+    BotCommandScopeAllChatAdministrators,
+    BotCommandScopeDefault
+)
+from telegram import BotCommandScopeChatAdmins, BotCommandScopeDefault
+from telegram.error import TelegramErrorWINDOW   = 10
 MUTE_MINUTES  = 10
 WARN_LIMIT    = 3
 
