@@ -1,0 +1,144 @@
+{
+  "bot_admins": {
+    "8023120895": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤"
+  },
+  "trusted_users": {
+    "-1003735562134": {
+      "7981212751": "BREONN is not dev"
+    }
+  },
+  "anti_link_groups": [
+    -1003735562134
+  ],
+  "anti_sticker_groups": [
+    -1003735562134
+  ],
+  "anti_gif_groups": [],
+  "warnings": {},
+  "action_log": [
+    {
+      "ts": "2026-03-08 15:16:32",
+      "chat_id": 0,
+      "action": "ADD_BOT_ADMIN",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:20:34",
+      "chat_id": -1003735562134,
+      "action": "AUTO_MUTE",
+      "mod": "BOT",
+      "target": "BREONN is not dev",
+      "reason": "Spam"
+    },
+    {
+      "ts": "2026-03-08 15:22:19",
+      "chat_id": -1003735562134,
+      "action": "LOCK",
+      "mod": "BREONN is not dev",
+      "target": "Grupo",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:22:44",
+      "chat_id": -1003735562134,
+      "action": "LOCK",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "Grupo",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:23:25",
+      "chat_id": -1003735562134,
+      "action": "PURGE",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "9 msgs",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:24:15",
+      "chat_id": -1003735562134,
+      "action": "PURGE",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "4 msgs",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:25:50",
+      "chat_id": -1003735562134,
+      "action": "TRUST_ADD",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "BREONN is not dev",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:55:56",
+      "chat_id": -1003735562134,
+      "action": "REPORT",
+      "mod": "BREONN is not dev",
+      "target": "BREONN is not dev",
+      "reason": "Sem motivo especificado"
+    },
+    {
+      "ts": "2026-03-08 15:58:30",
+      "chat_id": -1003735562134,
+      "action": "BROADCAST",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "Grupo",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:58:45",
+      "chat_id": 8023120895,
+      "action": "BROADCAST",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "Grupo",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:58:47",
+      "chat_id": -1003735562134,
+      "action": "BROADCAST",
+      "mod": "BREONN is not dev",
+      "target": "Grupo",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 15:59:14",
+      "chat_id": -1003735562134,
+      "action": "BROADCAST",
+      "mod": "BREONN is not dev",
+      "target": "Grupo",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 16:00:22",
+      "chat_id": 0,
+      "action": "CLEAR_ALL_WARNS",
+      "mod": "BREONN is not dev",
+      "target": "Global",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 16:02:32",
+      "chat_id": -1003735562134,
+      "action": "BROADCAST",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "Grupo",
+      "reason": ""
+    },
+    {
+      "ts": "2026-03-08 16:03:01",
+      "chat_id": 8023120895,
+      "action": "BROADCAST",
+      "mod": "𝙆𝙯𝙞𝙣 𝙤 𝘾𝙖𝙡𝙫𝙤",
+      "target": "Grupo",
+      "reason": ""
+    }
+  ],
+  "group_rules": {},
+  "welcome_messages": {},
+  "ban_registry": {},
+  "slowmode_groups": {}
+}
